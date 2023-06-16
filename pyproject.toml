@@ -1,5 +1,5 @@
 [project]
-name = "pytest-fluent"
+name = "pytest-fluentbit"
 authors = [
     {name = "Sujay Kanungo" , email = "sujay.kanungo@gmail.com"}
 ]
