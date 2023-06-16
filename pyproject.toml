@@ -30,7 +30,9 @@ dependencies = [
     "six",
     "fluent-logger"
 ]
-dynamic = ["version"]
+
+version = "0.1.5"
+
 
 [project.urls]
 project = "https://github.com/sujay2002/pytest-fluentbit"
