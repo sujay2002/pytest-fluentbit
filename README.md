@@ -17,7 +17,7 @@ Each pytest session gets an unique identifier (UID) assigned as well as each exe
 The package is available at pypi.org and can be installed by typing
 
 ```shell
-pip install pytest-fluent
+pip install pytest-fluentbit
 ```
 
 ## Usage
@@ -82,7 +82,7 @@ def test_unique_identifier(session_uid, test_uid):
 If you want to add custom data to the datasets of the `pytest_sessionstart` and `pytest_runtest_logstart` stages, decorate your callback functions with the following decorators.
 
 ```python
-from pytest_fluent import (
+from pytest_fluentbit import (
     additional_session_information_callback,
     additional_test_information_callback
 )
